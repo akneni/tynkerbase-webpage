@@ -21,7 +21,7 @@ function Navbar() {
         <li>Home</li>
         <li>About Us</li>
         <li>Who We Are</li>
-        <li>Download</li>
+        <li>Downloads</li>
       </ul>
       <div className="nav-icons">
         <MdEmail className='icon' style={{marginRight: '1rem'}}/>
