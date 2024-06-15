@@ -8,8 +8,10 @@ function Hero() {
       <video autoPlay loop muted id='video'>
         <source src={Video} type='video/mp4' />
       </video>
-      <div className="overlay">
-        
+      <div className="overlay"></div>
+      <div className="content">
+        <h1>The cloud, in the palm of your hand</h1>
+        <h2>TynkerBase provides an easy-to-use, affordable, and educational platform for deploying and managing cloud services on your own hardware</h2>
       </div>
     </div>
   )
