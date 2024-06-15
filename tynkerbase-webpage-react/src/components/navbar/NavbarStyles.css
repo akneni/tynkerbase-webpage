@@ -1,0 +1,95 @@
+.Navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    z-index: 2;
+    position: absolute;
+    color: #FFF;
+}
+
+.navbar-bg {
+    background-color: whitesmoke;
+}
+
+.nav-menu {
+    display: flex;
+}
+
+li {
+    padding: 0 1rem;
+}
+
+.menu-icon {
+    display: none;
+    /* padding: 1rem; */
+}
+
+.mobile-menu{
+    display: none;
+}
+
+.icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 940px) {
+
+    .mobile-menu{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        top: -100vh;
+        left: 0;
+        position: absolute;
+        justify-content: space-between;
+        /* align-items: center; */
+        background-color: whitesmoke;
+        transition: 0.3s;
+        color: #FF00FF;
+    }
+
+    .dark {
+        color: #FF00FF;
+    }
+
+    .active {
+        top: 80px;
+    }
+
+    .mobile-menu li {
+        padding: 1.2rem 1rem;
+        margin: 0 1rem;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .mobile-nav {
+        margin: 1rem 0;
+    }
+
+    .email-icons {
+        display: flex;
+        justify-content: space-around;
+        margin: 2rem 0;
+    }
+
+    .email-icons .icon:hover {
+        transform: scale(2);
+        transition: 0.1s;
+    }
+
+    .nav-menu{
+        display: none;
+    }
+
+    .nav-icons {
+        display: none;
+    }
+
+    .menu-icon{
+        display: block;
+    }
+}
