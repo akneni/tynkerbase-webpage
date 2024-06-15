@@ -2,7 +2,7 @@ import React from 'react'
 import './HeroStyles.css'
 import Video from '../../assets/OtherVideo.mp4'
 
-function Hero() {
+export function Hero() {
   return (
     <div className='hero'>
       <video autoPlay loop muted id='video'>
@@ -16,5 +16,3 @@ function Hero() {
     </div>
   )
 }
-
-export default Hero

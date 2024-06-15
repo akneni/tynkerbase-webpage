@@ -8,7 +8,7 @@ import { IoMdClose } from "react-icons/io";
 import './NavbarStyles.css';
 
 
-function Navbar() {
+export function Navbar() {
   const[nav, setnav] = useState(false)
   const handleNav = () => setnav(!nav)
 
@@ -49,5 +49,3 @@ function Navbar() {
     </div>
   )
 }
-
-export default Navbar
