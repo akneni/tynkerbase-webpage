@@ -1,4 +1,3 @@
-import React from 'react'
 import './HeroStyles.css'
 import Video from '../../assets/OtherVideo.mp4'
 
